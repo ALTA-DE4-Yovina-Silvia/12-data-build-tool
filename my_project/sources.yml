@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: store
+    database: store
+    schema: public  # Skema tempat tabel sumber berada
+    tables:
+      - name: brands
+      - name: products
+      - name: orders
+      - name: order_details
